@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  margin-top: 92px;
+  justify-content: center;
+}
+
+.footer__copyright {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    margin-top: 64px;
+  }
+}
